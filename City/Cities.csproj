@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\csv\Csv.csproj" />
+    <ProjectReference Include="..\EntityOrm\EntityOrm.csproj" />
+  </ItemGroup>
+
+</Project>
