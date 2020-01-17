@@ -15,6 +15,7 @@ namespace Cities
             }
             else
             {
+                System.Console.WriteLine("====>"+text);
                 double value = System.Convert.ToDouble(text);
                 return value;
             }

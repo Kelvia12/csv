@@ -20,7 +20,7 @@ namespace Csv
 
                 while (csv.Read())
                 {
-                    results.Add(csv.GetRecord<T>());
+                   results.Add(csv.GetRecord<T>());
                 }
             }
             return results;
